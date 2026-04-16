@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family:  Arial, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.hero {
+  padding: 100px 50px;
+  max-width: 600px;
+
+}
+ 
+.hero h1{
+  font-size: 40px;
+
+}
+ 
+.hero h2{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #00c6ff;
+  color: black;
+}
+
+.btn2 {
+  background-color: #a1ffce;
+  color: black;
+}
+
+.sections {
+  padding: 50px;
+  background: white;
+  color: black;
+
+}
+
+
+
+.sections span{
+  color: blue;
+}
+
+.section h1{
+  color: black;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.section img{
+  width: 400px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .section{
+    flex-direction: column;
+  }
+
+  .section.reverse {
+    flex-direction: column;
+  }
+}
+
+.section img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
