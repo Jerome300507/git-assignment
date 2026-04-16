@@ -5,13 +5,13 @@ function Sections() {
     return (
         <div className="sections">
 
-            <h1>
+            <h1 className="bro">
                 We are a <span>Creative</span>Design Agency
             </h1>
 
             {/* Beauty Section */}
             <div className="section">
-                <img src="/images/beauty.jpg"alt="Beauty"/>
+                <img src="/images/beautiful.jpg"alt="Beauty"/>
                 <h3>Beauty</h3>
                 <p> I create clean and visully appealing designs that make websites stand out and feel modern</p>
             </div>
